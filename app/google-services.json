@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621867939914",
+    "project_id": "hyperspeed-b6426",
+    "storage_bucket": "hyperspeed-b6426.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621867939914:android:5c02f63e5ce6e15d540eb3",
+        "android_client_info": {
+          "package_name": "com.ghostdust.hyperspeednew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621867939914-k2qjcmaalplsg5d6gvgshlkrqfl10gfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDixfp0uXC-WoQ2QBx61rLzZisAuRpCtaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621867939914-k2qjcmaalplsg5d6gvgshlkrqfl10gfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

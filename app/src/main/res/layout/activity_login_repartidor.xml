@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_r"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginRepartidorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <!-- Imagen de repartidor -->
+        <ImageView
+            android:layout_width="248dp"
+            android:layout_height="179dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/repartidor" />
+
+        <!-- Campo de entrada para el correo electrónico -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EmailR"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/black"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress"
+            android:textAlignment="inherit"
+            android:textColor="@color/primario"
+            android:textColorHint="@color/black"
+            android:textColorLink="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Campo de entrada para la contraseña -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contraR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Botón para iniciar sesión -->
+        <Button
+            android:id="@+id/btnLoginR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/borde_redondo"
+            android:backgroundTint="@color/Rclaro"
+            android:text="INICIAR SESION" />
+
+        <!-- Botón para registrarse -->
+        <Button
+            android:id="@+id/btnRregistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/borde_redondo"
+            android:backgroundTint="@color/Verde"
+            android:text="REGISTRARME AHORA" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

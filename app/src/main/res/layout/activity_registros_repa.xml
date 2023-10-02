@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registro_rr"
+    android:fitsSystemWindows="true"
+    tools:context=".RegistrosRepaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Imagen  -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="117dp"
+            android:layout_height="109dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/curriculum" />
+
+        <!-- Texto indicativo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_margin="30dp"
+            android:text="Completa los datos para continuar"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!-- Campo de entrada para el nombre -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Rcnombre"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Nombre Completo"
+            android:backgroundTint="@color/black"
+            android:textAlignment="inherit"
+            android:textColor="@color/primario"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+            android:inputType="text" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!-- Campo de entrada para el correo electrónico -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Rccorreo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Correo electrónico"
+            android:backgroundTint="@color/black"
+            android:textAlignment="inherit"
+            android:textColor="@color/primario"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress" />
+
+        <!-- Campo de entrada para la contraseña -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contra"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Contraseña"
+            android:backgroundTint="@color/black"
+            android:textAlignment="inherit"
+            android:textColor="@color/primario"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+            android:inputType="textPassword" />
+
+        <!-- Campo de entrada para el DNI -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Rdni"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="DNI"
+            android:backgroundTint="@color/black"
+            android:textAlignment="inherit"
+            android:textColor="@color/primario"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+            android:inputType="number" />
+
+        <!-- Campo de entrada para el número de placa del vehículo -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/placaV"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Numero de placa Vehiculo"
+            android:backgroundTint="@color/black"
+            android:textAlignment="inherit"
+            android:textColor="@color/primario"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+            android:inputType="text" />
+
+        <!-- Botón para registrarse -->
+        <Button
+            android:id="@+id/btnregisterRepa"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0"
+            android:background="@drawable/borde_redondo"
+            android:backgroundTint="@color/Verde"
+            android:text="Registrarme" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

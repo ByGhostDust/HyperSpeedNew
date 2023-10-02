@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primario">#FFBB02</color>
+    <color name="balance1">#E58E00</color>
+    <color name="balence2">#27AFC9</color>
+    <color name="complementario1">#B0A6A5</color>
+    <color name="Rprimario">#BC0000</color>
+    <color name="Bordo">#680003</color>
+    <color name="Rclaro">#F5704A</color>
+    <color name="Verde">#828D00</color>
+    <color name="Pielclaro">#EFB9AD</color>
+</resources>

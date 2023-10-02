@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/completaf"
+    tools:context=".CompletarFormularioActivity">
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <ImageView
+            android:layout_width="197dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:src="@drawable/entregap" />
+
+        <TextView
+            android:layout_width="375dp"
+            android:layout_height="47dp"
+            android:layout_margin="10dp"
+            android:text="¡Ultimo Paso!"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+        <EditText
+            android:id="@+id/editTextDireccionDestino"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:hint="Dirección de Destino" />
+
+        <EditText
+            android:id="@+id/editTextDireccionRetiro"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:hint="Dirección de Retiro" />
+
+        <EditText
+            android:id="@+id/editTextNumeroTelefono"
+            android:layout_width="match_parent"
+            android:inputType="text|number"
+            android:layout_height="wrap_content"
+            android:hint="Número de Teléfono" />
+
+        <Button
+            android:id="@+id/buttonFinalizar"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:backgroundTint="@color/primario"
+            android:text="Finalizar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
